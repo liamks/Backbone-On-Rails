@@ -7,7 +7,7 @@ I created this project because I wanted to leverage the asset pipeline and use h
 
 I loosely organized the code into modules, similar to the Backbone Biolerplate. the most significant difference is all the communication between modules occurs using events. This eliminates the need to pass variables into modules and makes it extremely easy to add new modules. For instance, here is the `index` route:
 
-```coffeescript Routing Example
+```coffeescript
 Router = Backbone.Router.extend
   routes:
     "":"index"
