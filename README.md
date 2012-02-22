@@ -41,3 +41,5 @@ new ExampleModule()
 
 The example module is rendered either when the app starts or when the use navigates back to the index action.
 
+The entire Backbone application is stored within `app/assets/javascripts/app`. The asset pipeline uses `app/assets/javascripts/backboneApp.js` to load all the Backbone app files and the templates. Library JavaScript files are stored in `lib/assets/javascripts`. For good measure I also included Bootstrap!
+
